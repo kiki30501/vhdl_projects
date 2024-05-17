@@ -1,0 +1,7 @@
+
+State Machine - |mouse_control|ctrl_unit:Control_Unit|pres_s
+Name pres_s.w3 pres_s.w2 pres_s.w1 pres_s.init 
+pres_s.init 0 0 0 0 
+pres_s.w1 0 0 1 1 
+pres_s.w2 0 1 0 1 
+pres_s.w3 1 0 0 1 

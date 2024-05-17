@@ -1,0 +1,276 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/VHDL course project/Final_Project
+Ectrl_unit
+Z1 w1689713459
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 554
+R0
+Z4 8F:/VHDL course project/Final_Project/ctrl_unit.vhd
+Z5 FF:/VHDL course project/Final_Project/ctrl_unit.vhd
+l0
+L5 1
+VZAL8RHmk1oIIU1OKAcR=G1
+!s100 ad>kBDbiElMiM9Z^>]_NQ1
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1705569585
+!i10b 1
+Z8 !s108 1705569585.000000
+Z9 !s90 -reportprogress|300|-work|work|F:/VHDL course project/Final_Project/ctrl_unit.vhd|
+Z10 !s107 F:/VHDL course project/Final_Project/ctrl_unit.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 NoCoverage 1 CvgOpt 0
+Aarc_ctrl_unit
+R2
+R3
+Z13 DEx4 work 9 ctrl_unit 0 22 ZAL8RHmk1oIIU1OKAcR=G1
+!i122 554
+l20
+L15 68
+VF1LKc3GLcW<5gTLA8EQif2
+!s100 RQ`NPTKR9Sf9gSc_M4?4k0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einit_unit
+Z14 w1689692009
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z17 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 555
+R0
+Z18 8F:/VHDL course project/Final_Project/init_unit.vhd
+Z19 FF:/VHDL course project/Final_Project/init_unit.vhd
+l0
+L7 1
+VIeE=>K5VoCN2Xl3h[NG3P3
+!s100 4_`QO5L6T@NY^ndPOV:UT0
+R6
+31
+R7
+!i10b 1
+R8
+Z20 !s90 -reportprogress|300|-work|work|F:/VHDL course project/Final_Project/init_unit.vhd|
+Z21 !s107 F:/VHDL course project/Final_Project/init_unit.vhd|
+!i113 1
+R11
+R12
+Aarc_init_unit
+R15
+R16
+R17
+R2
+R3
+Z22 DEx4 work 9 init_unit 0 22 IeE=>K5VoCN2Xl3h[NG3P3
+!i122 555
+l21
+L16 36
+V1go5CoTF5@87<GI51_09^3
+!s100 S1AhJHYXZ>z>@@e[cNW6E0
+R6
+31
+R7
+!i10b 1
+R8
+R20
+R21
+!i113 1
+R11
+R12
+Emouse_control
+Z23 w1689693181
+R2
+R3
+!i122 556
+R0
+Z24 8F:/VHDL course project/Final_Project/mouse_control.vhd
+Z25 FF:/VHDL course project/Final_Project/mouse_control.vhd
+l0
+L4 1
+VFTL`K4G=LW2AnCf[nj<Cf3
+!s100 YaofLO4A1I0UJZ@7ZNgdd0
+R6
+31
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|F:/VHDL course project/Final_Project/mouse_control.vhd|
+Z27 !s107 F:/VHDL course project/Final_Project/mouse_control.vhd|
+!i113 1
+R11
+R12
+Aarc_mouse_control
+R17
+R22
+Z28 DEx4 work 11 output_buff 0 22 Ie>F<DI<_lgGiJao0U6_70
+R15
+R16
+Z29 DEx4 work 2 rx 0 22 UaD;R:dk6nEo1ajke4T7U2
+R13
+R2
+R3
+Z30 DEx4 work 13 mouse_control 0 22 FTL`K4G=LW2AnCf[nj<Cf3
+!i122 556
+l22
+L15 61
+VYgzOIQ>]o5gMjJeLmYI@E1
+!s100 he;L5D:4<TXZ>UP=DOB4D2
+R6
+31
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
+Emouse_control_tb
+Z31 w1689712603
+R2
+R3
+!i122 557
+R0
+Z32 8F:/VHDL course project/Final_Project/mouse_control_tb.vhd
+Z33 FF:/VHDL course project/Final_Project/mouse_control_tb.vhd
+l0
+L4 1
+V7XdNLke0<@9GkG?OJ[g7[3
+!s100 ikYm[n>QJ?le2l3F7_>7L3
+R6
+31
+Z34 !s110 1705569586
+!i10b 1
+R8
+Z35 !s90 -reportprogress|300|-work|work|F:/VHDL course project/Final_Project/mouse_control_tb.vhd|
+Z36 !s107 F:/VHDL course project/Final_Project/mouse_control_tb.vhd|
+!i113 1
+R11
+R12
+Aarc_mouse_control_tb
+R30
+R2
+R3
+DEx4 work 16 mouse_control_tb 0 22 7XdNLke0<@9GkG?OJ[g7[3
+!i122 557
+l18
+L7 70
+VzJ^SIT4nY[K`LK?NoEm?O0
+!s100 XQ?zDb0^Oa8T:K[>1ccm61
+R6
+31
+R34
+!i10b 1
+R8
+R35
+R36
+!i113 1
+R11
+R12
+Eoutput_buff
+Z37 w1689607229
+R2
+R3
+!i122 558
+R0
+Z38 8F:/VHDL course project/Final_Project/output_buff.vhd
+Z39 FF:/VHDL course project/Final_Project/output_buff.vhd
+l0
+L4 1
+VIe>F<DI<_lgGiJao0U6_70
+!s100 U5hb[2;<:W>RBR8i^BJd22
+R6
+31
+R34
+!i10b 1
+Z40 !s108 1705569586.000000
+Z41 !s90 -reportprogress|300|-work|work|F:/VHDL course project/Final_Project/output_buff.vhd|
+Z42 !s107 F:/VHDL course project/Final_Project/output_buff.vhd|
+!i113 1
+R11
+R12
+Aarc_output_buff
+R2
+R3
+R28
+!i122 558
+l21
+L15 47
+VkAgWYaNYFZcLUEeJdGY?R2
+!s100 Y7?<F1=H?OfnIY:iJX5[k3
+R6
+31
+R34
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R11
+R12
+Erx
+Z43 w1689704999
+R15
+R16
+R2
+R3
+!i122 559
+R0
+Z44 8F:/VHDL course project/Final_Project/Rx.vhd
+Z45 FF:/VHDL course project/Final_Project/Rx.vhd
+l0
+L6 1
+VUaD;R:dk6nEo1ajke4T7U2
+!s100 JZm[i:?QIm<F42zNRY1m73
+R6
+31
+R34
+!i10b 1
+R40
+Z46 !s90 -reportprogress|300|-work|work|F:/VHDL course project/Final_Project/Rx.vhd|
+Z47 !s107 F:/VHDL course project/Final_Project/Rx.vhd|
+!i113 1
+R11
+R12
+Aarc_rx
+R15
+R16
+R2
+R3
+R29
+!i122 559
+l33
+Z48 L18 79
+Z49 Vk2LT>OzWR@1=T;]Hgh14k1
+Z50 !s100 63Cb[mFjcNSeiH7;T:`V?0
+R6
+31
+R34
+!i10b 1
+R40
+R46
+R47
+!i113 1
+R11
+R12

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jan 18 11:00:15 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : VHDL_Final_Project
+Top-level Entity Name : mouse_control
+Family : Cyclone IV E
+Total logic elements : 126
+    Total combinational functions : 76
+    Dedicated logic registers : 109
+Total registers : 109
+Total pins : 23
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

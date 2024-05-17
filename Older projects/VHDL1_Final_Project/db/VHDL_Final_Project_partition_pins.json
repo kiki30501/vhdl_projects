@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "x_mov[0]",
+					"strict" : false
+				},
+				{
+					"name" : "x_mov[1]",
+					"strict" : false
+				},
+				{
+					"name" : "x_mov[2]",
+					"strict" : false
+				},
+				{
+					"name" : "x_mov[3]",
+					"strict" : false
+				},
+				{
+					"name" : "x_mov[4]",
+					"strict" : false
+				},
+				{
+					"name" : "x_mov[5]",
+					"strict" : false
+				},
+				{
+					"name" : "x_mov[6]",
+					"strict" : false
+				},
+				{
+					"name" : "x_mov[7]",
+					"strict" : false
+				},
+				{
+					"name" : "x_mov[8]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[0]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[1]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[2]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[3]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[4]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[5]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[6]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[7]",
+					"strict" : false
+				},
+				{
+					"name" : "y_mov[8]",
+					"strict" : false
+				},
+				{
+					"name" : "msg_valid",
+					"strict" : false
+				},
+				{
+					"name" : "m_data",
+					"strict" : false
+				},
+				{
+					"name" : "m_clock",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50M",
+					"strict" : false
+				},
+				{
+					"name" : "a_rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
