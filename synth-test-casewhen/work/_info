@@ -1,0 +1,96 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sixsi/Code Projects/synth-test-casewhen
+Esynthcase2008
+Z1 w1715760586
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 20
+R0
+Z4 8C:/Users/sixsi/Code Projects/synth-test-casewhen/SynthCase2008.vhd
+Z5 FC:/Users/sixsi/Code Projects/synth-test-casewhen/SynthCase2008.vhd
+l0
+L26 1
+V:C2VQ;:Ii@YjVDkh@@ija3
+!s100 ^HH[JE=kQO3E^06GK5je=2
+Z6 OV;C;2020.1;71
+33
+Z7 !s110 1715760843
+!i10b 1
+Z8 !s108 1715760842.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/sixsi/Code Projects/synth-test-casewhen/SynthCase2008.vhd|
+Z10 !s107 C:/Users/sixsi/Code Projects/synth-test-casewhen/SynthCase2008.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 NoCoverage 1 CvgOpt 0
+Aarc_issynth
+R2
+R3
+Z13 DEx4 work 13 synthcase2008 0 22 :C2VQ;:Ii@YjVDkh@@ija3
+!i122 20
+l38
+L37 27
+V]_dMXcW<zXDNAbHEo8RMQ0
+!s100 QeB=JJj_ZJH_4ik6[]Qo`3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_synthcase2008
+Z14 w1715760935
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 23
+R0
+Z16 8C:/Users/sixsi/Code Projects/synth-test-casewhen/tb_synthcase2008.vhd
+Z17 FC:/Users/sixsi/Code Projects/synth-test-casewhen/tb_synthcase2008.vhd
+l0
+L7 1
+VN?IZMU9m?=`c4Db9m1SYE1
+!s100 =>7hYaB1h;9;YdeZU4>Y20
+R6
+33
+Z18 !s110 1715760940
+!i10b 1
+Z19 !s108 1715760940.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/sixsi/Code Projects/synth-test-casewhen/tb_synthcase2008.vhd|
+Z21 !s107 C:/Users/sixsi/Code Projects/synth-test-casewhen/tb_synthcase2008.vhd|
+!i113 1
+R11
+R12
+Atb_arch
+R13
+R15
+R2
+R3
+Z22 DEx4 work 16 tb_synthcase2008 0 22 N?IZMU9m?=`c4Db9m1SYE1
+!i122 23
+l24
+L10 48
+V4nMYco:Eih`d7XN`0=?`l0
+!s100 <GK4_j;n<4mB`XhXdYDeQ2
+R6
+33
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12

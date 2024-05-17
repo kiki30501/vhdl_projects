@@ -1,0 +1,33 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity SynthCase2008 is
+  port
+  (
+    clk    : in std_logic;
+    rst    : in std_logic;
+    ctrl   : in std_logic_vector(3 downto 0);
+    result : out std_logic_vector(3 downto 0)
+  );
+end entity SynthCase2008;
+
+architecture arc_isSynth of SynthCase2008 is
+begin
+  process (clk, rst)
+  begin
+    if rst = '1' then
+      result <= (others => '0');
+    elsif rising_edge(clk) then
+      case? ctrl is
+
+        when "0---" => result <= x"A";
+        when "101-" => result <= x"B";
+        when "11-0" => result <= x"C";
+        when "1101" => result <= x"D";
+        when "1111" => result <= x"E";
+        when others => result <= x"F";
+      end case;
+
+    end if;
+  end process;
+end architecture arc_isSynth;
