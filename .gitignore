@@ -1,0 +1,11 @@
+adv_vhdl_proj/db
+adv_vhdl_proj/incremental_db
+adv_vhdl_proj/output_files
+adv_vhdl_proj/simulation
+adv_vhdl_proj/work
+adv_vhdl_proj/mem_files_from_sim/work
+adv_vhdl_proj/*.bak
+adv_vhdl_proj/*.rpt
+adv_vhdl_proj/*.ini
+adv_vhdl_proj/*.wlf
+adv_vhdl_proj/*.vhd.bak
