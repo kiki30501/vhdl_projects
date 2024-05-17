@@ -1,0 +1,18 @@
+# system info mypll on 2024.05.12.17:53:07
+system_info:
+name,value
+DEVICE,EP4CE115F29C7
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1715525587
+#
+#
+# Files generated for mypll on 2024.05.12.17:53:07
+files:
+filepath,kind,attributes,module,is_top
+simulation/mypll.vhd,VHDL,,mypll,true
+simulation/submodules/mypll_altclkctrl_0.vhd,VHDL,,mypll_altclkctrl_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+mypll.altclkctrl_0,mypll_altclkctrl_0

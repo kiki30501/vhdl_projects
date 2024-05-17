@@ -1,0 +1,50 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/vhdl_projects/file_copy_example
+Ecopy_paste_file
+Z1 w1705518627
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+!i122 24
+R0
+Z3 8copy_paste_file.vhd
+Z4 Fcopy_paste_file.vhd
+l0
+L4 1
+Vzz;8o9kLbmMO[:FnCH0j`0
+!s100 zoa1ojh<;T0b1kG?bkmQF1
+Z5 OV;C;2020.1;71
+31
+Z6 !s110 1705518630
+!i10b 1
+Z7 !s108 1705518630.000000
+Z8 !s90 -reportprogress|300|-93|copy_paste_file.vhd|
+Z9 !s107 copy_paste_file.vhd|
+!i113 1
+o-93
+Z10 tExplicit 1 CvgOpt 0
+Aarc_copypastefile
+R2
+Z11 DEx4 work 15 copy_paste_file 0 22 zz;8o9kLbmMO[:FnCH0j`0
+!i122 24
+l8
+Z12 L7 63
+VQi;1_^RUbo2c9B[lZi<NN3
+!s100 MN:AT9Q2oi9lYAlR5Zj]D0
+R5
+31
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 1
+o-93
+R10
