@@ -1,0 +1,30 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity Mux4x1_tristate is
+port(
+		s		: in 	std_logic_vector(1 downto 0);
+		din	: in 	std_logic_vector(3 downto 0);
+		Dout	: out	std_logic
+		);
+end Mux4x1_tristate;		
+
+
+
+architecture arc_Mux4x1_tristate of Mux4x1_tristate is
+
+
+signal stg1: std_logic_vector(3 downto 0);
+signal stg2: std_logic_vector(3 downto 0);
+
+
+begin
+
+dec1: entity work.Decoder2x4
+		port map(s,	stg1);
+		
+stg2 <= din when (stg1='1')else 'Z';
+
+Dout <= stg2(0) or stg2(1) or stg2(2) or stg2(3);
+
+end arc_Mux4x1_tristate;

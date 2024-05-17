@@ -1,0 +1,15 @@
+library IEEE;
+use IEEE.std_logic_arith.all;
+entity Mux_4x1 is
+port(
+			S0,S1 : in bit ;
+			I0,I1,I2,I3 : in bit ;
+			y : out bit );
+end Mux_4x1;
+			
+architecture arch_Mux_4x1 of Mux_4x1 is 
+begin
+
+	y <= (((not S1)and(not S0)and(I0)) or ((not S1)and(S0)and(I1)) or ((S1)and(not S0)and(I2)) or ((S1)and(S0)and(I3)));
+				
+end arch_Mux_4x1;

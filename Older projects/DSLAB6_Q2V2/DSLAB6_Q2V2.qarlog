@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/DSLAB6_Q2V2.qarlog
+
+Archive:	C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/DSLAB6_Q2V2.qar
+Date:		Thu May 19 17:22:21 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/4WORD4BIT_FA.bdf
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/DSLAB6_Q2V2.bdf
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/DSLAB6_Q2V2.qpf
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/DSLAB6_Q2V2.qsf
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/Waveform.vwf
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/Waveform1.vwf
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/Waveform4.vwf
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/Waveform5.vwf
+C:/intelFPGA_lite/18.1/DSLAB6_Q2V2/Waveform7.vwf
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

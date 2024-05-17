@@ -1,0 +1,8 @@
+--Question 1.3 part A
+
+entity FA_1bit is
+port(
+		a,b,cin	: in	bit;
+		s,cout	: out	bit
+		);
+

@@ -1,0 +1,7 @@
+--Question 1.1: FA with integer operations
+
+library IEEE;
+use IEEE.std_logic.1164.all;
+library std_logic_arith;
+
+entity 

@@ -1,0 +1,408 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2
+Epic_ctrl
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+32
+Z3 !s110 1679826379
+!i10b 1
+Z4 w1679823856
+!i122 4
+R0
+Z5 8C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_ctrl.vhd
+Z6 FC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_ctrl.vhd
+l0
+L6 1
+VoEH?Z;O6BbC=co4Q?G]4Z2
+!s100 0_TUcM?FEUD`MR0DJdZ3c3
+Z7 OV;C;2020.1;71
+Z8 !s108 1679826379.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_ctrl.vhd|
+Z10 !s107 C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_ctrl.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Aarc_pic_ctrl
+R1
+R2
+Z13 DEx4 work 8 pic_ctrl 0 22 oEH?Z;O6BbC=co4Q?G]4Z2
+32
+R3
+!i10b 1
+!i122 4
+l17
+L16 3
+VP[`V5zh:]QGlfd]o1G=Dd3
+!s100 lO24WSc_8e2dGHN7G5NWG2
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Epic_ctrl_tb
+Z14 w1682427848
+R1
+R2
+!i122 174
+R0
+Z15 8C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_ctrl_tb.vhd
+Z16 FC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_ctrl_tb.vhd
+l0
+L5 1
+V4ZQAeTMn[P1_MUM7Z4jk]1
+!s100 9;]S5UQ@PBPD`;7>`?m=^0
+R7
+31
+Z17 !s110 1682427857
+!i10b 1
+Z18 !s108 1682427857.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_ctrl_tb.vhd|
+Z20 !s107 C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_ctrl_tb.vhd|
+!i113 1
+R11
+Z21 tExplicit 1 NoCoverage 1 CvgOpt 0
+Aarc_pic_ctrl_tb
+R13
+R1
+R2
+Z22 DEx4 work 11 pic_ctrl_tb 0 22 4ZQAeTMn[P1_MUM7Z4jk]1
+!i122 174
+l15
+Z23 L8 25
+Z24 VK_0QjC42M0ADA]2i;7IUd3
+Z25 !s100 FOIfhPdj?=lPKndSnW0A40
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R21
+Epic_encoder
+R1
+R2
+33
+Z26 !s110 1682415494
+!i10b 1
+Z27 w1682415433
+!i122 120
+R0
+Z28 8C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder.vhd
+Z29 FC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder.vhd
+l0
+L6 1
+V4zfQ8zb>K<B5HQ@5;Shif3
+!s100 TR0`[608KUZg<9l7BG3AQ2
+R7
+Z30 !s108 1682415494.000000
+Z31 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder.vhd|
+Z32 !s107 C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder.vhd|
+!i113 1
+R11
+R21
+Aarc_pic_encoder
+R1
+R2
+Z33 DEx4 work 11 pic_encoder 0 22 4zfQ8zb>K<B5HQ@5;Shif3
+33
+R26
+!i10b 1
+!i122 120
+l17
+Z34 L13 16
+VnX:aBnFQjI2dNKzgMoSc^0
+!s100 RNCC[G0FcZHU[IZTY;ml51
+R7
+R30
+R31
+R32
+!i113 1
+R11
+R21
+Aarc_pic_encoder2
+R1
+R2
+R33
+33
+Z35 !s110 1682414943
+!i10b 1
+!i122 110
+l34
+L32 35
+VXjP6VdmcUMgOiXQ52X6Xn3
+!s100 `bjDfd6j?8Qc94IT:XH5_2
+R7
+Z36 !s108 1682414942.000000
+R31
+R32
+!i113 1
+R11
+R21
+Z37 w1682414002
+Aarc_pic_encoder1
+R1
+R2
+R33
+33
+R35
+!i10b 1
+!i122 110
+l17
+R34
+VlX7AFk>0[dB;Bkz>hP8ei1
+!s100 3gclB2fhEhk`6V7>]cJ6K2
+R7
+R36
+R31
+R32
+!i113 1
+R11
+R21
+R37
+Epic_encoder2
+R1
+R2
+33
+Z38 !s110 1682416740
+!i10b 1
+Z39 w1682413674
+!i122 131
+R0
+Z40 8C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder2.vhd
+Z41 FC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder2.vhd
+l0
+L6 1
+V2Wf_0>^kzR8kB7C[;S:^`2
+!s100 g]?2Q;82M7oL>kgddheEk3
+R7
+Z42 !s108 1682416740.000000
+Z43 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder2.vhd|
+Z44 !s107 C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder2.vhd|
+!i113 1
+R11
+R21
+Aarc_pic_encoder2
+R1
+R2
+DEx4 work 12 pic_encoder2 0 22 2Wf_0>^kzR8kB7C[;S:^`2
+33
+R38
+!i10b 1
+!i122 131
+l15
+L13 35
+VP`]hUPl@B>PQ3Zh]ReF?60
+!s100 [1;R7kCaP4WTaAN4oe^BE1
+R7
+R42
+R43
+R44
+!i113 1
+R11
+R21
+Epic_encoder_tb
+Z45 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z46 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+33
+Z47 !s110 1682418316
+!i10b 1
+Z48 w1682418312
+!i122 136
+R0
+Z49 8C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder_tb.vhd
+Z50 FC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder_tb.vhd
+l0
+L7 1
+V[zLK_QnijngMFFjA@`H]F1
+!s100 F8Ji<JREZHIbXX2jJ6Vhk2
+R7
+Z51 !s108 1682418316.000000
+Z52 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder_tb.vhd|
+Z53 !s107 C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_encoder_tb.vhd|
+!i113 1
+R11
+R21
+Aarc_encoder_tb
+R45
+R46
+R1
+R2
+Z54 DEx4 work 14 pic_encoder_tb 0 22 [zLK_QnijngMFFjA@`H]F1
+33
+R47
+!i10b 1
+!i122 136
+l21
+L10 62
+VT^BRXPB9]@PmC5[HAKD673
+!s100 <k10JfiMQa8`_9K6GQh[W1
+R7
+R51
+R52
+R53
+!i113 1
+R11
+R21
+Aarc_pic_encoder_tb
+R45
+R46
+R1
+R2
+R54
+32
+!s110 1679841576
+!i10b 1
+!i122 16
+l19
+L7 49
+V6I`[gLWhn_3T`Znlch0ac3
+!s100 gZ0ACD9j3n29UIlB[mFLG0
+R7
+!s108 1679841576.000000
+R52
+R53
+!i113 1
+R11
+R12
+w1679831217
+Epic_lab2
+R1
+R2
+32
+R3
+!i10b 1
+Z55 w1679825744
+!i122 6
+R0
+Z56 8C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_Lab2.vhd
+Z57 FC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_Lab2.vhd
+l0
+L6 1
+VZ;N?A89DiClh5Y3JogVoY0
+!s100 [=GIBCW5^6?>HV29lY`za2
+R7
+R8
+Z58 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_Lab2.vhd|
+Z59 !s107 C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_Lab2.vhd|
+!i113 1
+R11
+R12
+Aarc_pic_lab2
+R1
+R2
+DEx4 work 8 pic_lab2 0 22 Z;N?A89DiClh5Y3JogVoY0
+32
+R3
+!i10b 1
+!i122 6
+l43
+L14 39
+Va[>1^N`@9=OjzB0126zBU2
+!s100 i?6I6[237SJcWP79SP;o<3
+R7
+R8
+R58
+R59
+!i113 1
+R11
+R12
+Epic_reg
+Z60 w1681638964
+R1
+R2
+!i122 139
+R0
+Z61 8C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_reg.vhd
+Z62 FC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_reg.vhd
+l0
+L6 1
+V<?4dTDZ<QHW6Sj[dl^nN>2
+!s100 k?2SMzRh7j``Pl_55T`<R2
+R7
+31
+Z63 !s110 1682419916
+!i10b 1
+Z64 !s108 1682419916.000000
+Z65 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_reg.vhd|
+Z66 !s107 C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/PIC_reg.vhd|
+!i113 1
+R11
+R21
+Aarc_pic_reg
+R1
+R2
+Z67 DEx4 work 7 pic_reg 0 22 <?4dTDZ<QHW6Sj[dl^nN>2
+!i122 139
+l14
+L13 11
+V5c8m`j=?WDoA6GCTh`fhX0
+!s100 MTk:MAlmHb>odJzN9YTz`0
+R7
+31
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R11
+R21
+Epic_reg_tb
+Z68 w1682422754
+R1
+R2
+!i122 165
+R0
+Z69 8C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/register_tb.vhd
+Z70 FC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/register_tb.vhd
+l0
+L6 1
+VK1Z2YGKT5gkfeR]^oe8Ui1
+!s100 :`8V@bm`d9MLdF4UVaYH]2
+R7
+31
+Z71 !s110 1682422776
+!i10b 1
+Z72 !s108 1682422776.000000
+Z73 !s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/register_tb.vhd|
+Z74 !s107 C:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/register_tb.vhd|
+!i113 1
+R11
+R21
+Aarc_pic_reg_tb
+R67
+R1
+R2
+DEx4 work 10 pic_reg_tb 0 22 K1Z2YGKT5gkfeR]^oe8Ui1
+!i122 165
+l14
+L9 30
+VhEOlFei6eEFU`I]PjL`A20
+!s100 c[Z<OG=k07;Cb:8_P[MHE0
+R7
+31
+R71
+!i10b 1
+R72
+R73
+R74
+!i113 1
+R11
+R21

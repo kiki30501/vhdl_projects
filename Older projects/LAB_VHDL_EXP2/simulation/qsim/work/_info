@@ -1,0 +1,244 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/20.1/LAB_VHDL_EXP2/simulation/qsim
+Ehard_block
+Z1 w1681653543
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 18
+R0
+Z8 8PIC_Lab2.vho
+Z9 FPIC_Lab2.vho
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1681653543
+!i10b 1
+Z12 !s108 1681653543.000000
+Z13 !s90 -work|work|PIC_Lab2.vho|
+Z14 !s107 PIC_Lab2.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 18
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Epic_encoder
+Z17 w1681637704
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 12
+R0
+R8
+R9
+l0
+L78 1
+VOl:1dWm^TQF8:hH4HoaJA1
+!s100 ;B;SkFfoYD<icODoAzn091
+R10
+32
+Z18 !s110 1681637705
+!i10b 1
+Z19 !s108 1681637705.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 pic_encoder 0 22 Ol:1dWm^TQF8:hH4HoaJA1
+!i122 12
+l171
+L113 587
+V07]:fY^NaMLle>6PG7<z33
+!s100 iH@:I9Z<8VeB22K`dFP2]0
+R10
+32
+R18
+!i10b 1
+R19
+R13
+R14
+!i113 1
+R15
+R16
+Epic_encoder_vhd_vec_tst
+R17
+R5
+R6
+!i122 13
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+Z22 L32 1
+VN`@?048S7OOmzCkzPI[Mz3
+!s100 OF;H8kMF1>W5:8:NJHfoI1
+R10
+32
+R18
+!i10b 1
+R19
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Apic_encoder_arch
+R5
+R6
+DEx4 work 23 pic_encoder_vhd_vec_tst 0 22 N`@?048S7OOmzCkzPI[Mz3
+!i122 13
+l47
+L34 150
+VzX><ePbjgca[EI7TLPBTI3
+!s100 `;8>9Mnbh[Vg:6=Ya7gG]3
+R10
+32
+R18
+!i10b 1
+R19
+R23
+R24
+!i113 1
+R15
+R16
+Epic_lab2
+R1
+R3
+R7
+R2
+Z25 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R4
+R5
+R6
+Z26 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 18
+R0
+R8
+R9
+l0
+L80 1
+VBn4Tzna^okkjhke]0Kd<52
+!s100 mNR1LoV]kc]N<@BC`V31d0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R3
+R7
+R2
+R25
+R4
+R5
+R6
+R26
+DEx4 work 8 pic_lab2 0 22 Bn4Tzna^okkjhke]0Kd<52
+!i122 18
+l206
+L120 1155
+VQ4zcJPO7aSUAeYcH^_B_=2
+!s100 X`Of@k==PB4XCO`4TPU6V3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Epic_lab2_vhd_vec_tst
+Z27 w1681653542
+R5
+R6
+!i122 19
+R0
+Z28 8Waveform1.vwf.vht
+Z29 FWaveform1.vwf.vht
+l0
+R22
+V>eOa2?ZI`3_>TM1CKZ::Y1
+!s100 @S__EhdZ@F?e]P1Gh]8[72
+R10
+32
+R11
+!i10b 1
+R12
+Z30 !s90 -work|work|Waveform1.vwf.vht|
+Z31 !s107 Waveform1.vwf.vht|
+!i113 1
+R15
+R16
+Apic_lab2_arch
+R5
+R6
+Z32 DEx4 work 20 pic_lab2_vhd_vec_tst 0 22 >eOa2?ZI`3_>TM1CKZ::Y1
+!i122 19
+l59
+L34 353
+VUX=D30>c^XdRYIf6HeU[K3
+!s100 zAhELBEzSO9eZKMEB4;0i1
+R10
+32
+R11
+!i10b 1
+R12
+R30
+R31
+!i113 1
+R15
+R16

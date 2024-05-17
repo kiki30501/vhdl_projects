@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 18 13:40:51 2023
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : FEC_hamming
+Top-level Entity Name : FEC_hamming
+Family : Cyclone IV E
+Total logic elements : 92
+    Total combinational functions : 41
+    Dedicated logic registers : 71
+Total registers : 71
+Total pins : 45
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,21 @@
+---------------------------------------------
+--VHDL Lab: Experiment 4                   --
+--Forward error correction by Hamming codes--
+--Reshef & Roi          HC decoder         --
+---------------------------------------------
+Library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+Entity FEC_hamming is port(
+	
+	en:	in		std_logic; 								-- encoder enable, active-high
+	rst_n:in		std_logic; 								-- asynchronous reset (active-low)
+	din:	in 	std_logic_vector(8  downto 0); 	--System data input
+	Rx:	in 	std_logic_vector(12 downto 0); 	--Ports Tx and Rx are used to include a noise source
+																-- if no noise is added, simply connect them together
+	dout:	out	std_logic_vector(8  downto 0); 	--System data output
+	Tx:	out	std_logic_vector(12 downto 0);
+	valid:out	std_logic;
+
+); end FEC_hamming;

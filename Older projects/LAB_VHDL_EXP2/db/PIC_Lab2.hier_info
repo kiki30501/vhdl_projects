@@ -1,0 +1,27 @@
+|PIC_encoder2
+irq[0] => temp[0].IN0
+irq[1] => temp[1].IN0
+irq[2] => temp[2].IN0
+irq[3] => temp[3].IN0
+irq[4] => temp[4].IN0
+irq[5] => temp[5].IN0
+irq[6] => temp[6].IN0
+irq[7] => temp.IN0
+mask[0] => temp[0].IN1
+mask[1] => temp[1].IN1
+mask[2] => temp[2].IN1
+mask[3] => temp[3].IN1
+mask[4] => temp[4].IN1
+mask[5] => temp[5].IN1
+mask[6] => temp[6].IN1
+mask[7] => temp.IN1
+prio[0] << prio.DB_MAX_OUTPUT_PORT_TYPE
+prio[1] << prio.DB_MAX_OUTPUT_PORT_TYPE
+prio[2] << prio.DB_MAX_OUTPUT_PORT_TYPE
+prio[3] << prio.DB_MAX_OUTPUT_PORT_TYPE
+prio[4] << prio.DB_MAX_OUTPUT_PORT_TYPE
+prio[5] << prio.DB_MAX_OUTPUT_PORT_TYPE
+prio[6] << prio.DB_MAX_OUTPUT_PORT_TYPE
+prio[7] << temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

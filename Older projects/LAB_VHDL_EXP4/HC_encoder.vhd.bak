@@ -1,0 +1,31 @@
+---------------------------------------------
+--VHDL Lab: Experiment 4                   --
+--Forward error correction by Hamming codes--
+--Reshef & Roi            encoder          --
+---------------------------------------------
+
+Library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+Entity HC_encoder is port(
+	
+	en:		in		std_logic;	-- enable data writing into system, active high
+	clk:		in		std_logic;
+	rst_n:	in		std_logic;	-- asynchronous reset, active-low
+	Tx:		in 	std_logic_vector(8  downto 0); 	-- System data input
+	din:		out	std_logic_vector(12 downto 0);	-- System data input
+	valid:	out	std_logic;	-- valid synchronous data indicator, active-high
+
+); end HC_encoder;
+
+architecture arc_FEC_hamming of FEC_hamming is
+
+
+	
+begin
+	
+		
+	
+	
+end architecture arc_FEC_hamming;

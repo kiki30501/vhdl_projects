@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "prio[0]",
+					"strict" : false
+				},
+				{
+					"name" : "prio[1]",
+					"strict" : false
+				},
+				{
+					"name" : "prio[2]",
+					"strict" : false
+				},
+				{
+					"name" : "prio[3]",
+					"strict" : false
+				},
+				{
+					"name" : "prio[4]",
+					"strict" : false
+				},
+				{
+					"name" : "prio[5]",
+					"strict" : false
+				},
+				{
+					"name" : "prio[6]",
+					"strict" : false
+				},
+				{
+					"name" : "prio[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mask[6]",
+					"strict" : false
+				},
+				{
+					"name" : "irq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "irq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mask[5]",
+					"strict" : false
+				},
+				{
+					"name" : "irq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mask[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mask[4]",
+					"strict" : false
+				},
+				{
+					"name" : "irq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mask[3]",
+					"strict" : false
+				},
+				{
+					"name" : "irq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "irq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mask[1]",
+					"strict" : false
+				},
+				{
+					"name" : "irq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mask[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mask[2]",
+					"strict" : false
+				},
+				{
+					"name" : "irq[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

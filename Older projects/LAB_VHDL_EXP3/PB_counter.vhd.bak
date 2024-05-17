@@ -1,0 +1,16 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity PB_counter is port(
+	PB, clk:	in 	std_logic;
+	out:		out	std_logic_vector(6 downto 0));
+end PB_counter;
+
+
+architecture arc_PB_counter of PB_counter is
+
+-- signal declerations
+signal cntr_en, increment: std_logic;
+signal cnt_4b:  std_logic_vector(3 downto 0);
+signal dec_out: std_logic_vector(6 downto 0);
+

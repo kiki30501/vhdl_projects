@@ -1,0 +1,66 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity pb_if is port(
+	pb, clk, rst:	in 	std_logic;
+	Seven_sig:			out	std_logic_vector(6 downto 0));
+end pb_if;
+
+
+architecture arc_pb_if of pb_if is
+
+-- signal and const declerations
+signal PB, P1, P2, in_sync, cnt_sync, clk16, cnt_en, rst: std_logic;
+signal dec_in:  std_logic_vector(3 downto 0);
+signal dec_out: std_logic_vector(6 downto 0);
+constant cc_cnt: std_logic_vector(3 downto 0) := "1111";
+
+main: process(clk, rst)
+begin
+
+	if(rst = '0') then
+	-- async reset values
+	P1 		<= '0';
+	in_sync 	<= '0';
+	P2 		<= '0';
+	dec_in 	<= (others=>'0');
+	Seven_sig<= (others=>'0');
+	elsif rising_edge(clk) then
+		P1 <= not pb;
+		in_sync <= P1;
+		if(clk16='1') then P2 <= in_sync; end if;
+		cnt_en <= P2 and (not in_sync);
+		dec_in <= dec_in + ("000" & cnt_en);
+		decoder: case dec_in is
+			when x"0" => dec_out <= (0=>'1', others=>'0');
+			when x"1" => dec_out <= (1=>'1', others=>'0');
+			when x"2" => dec_out <= (2=>'1', others=>'0');
+			when x"3" => dec_out <= (3=>'1', others=>'0');
+			when x"4" => dec_out <= (4=>'1', others=>'0');
+			when x"5" => dec_out <= (5=>'1', others=>'0');
+			when x"6" => dec_out <= (6=>'1', others=>'0');
+		end case decoder;
+		Seven_sig <= dec_out;
+		
+end process main;
+		
+clock_cycle_counter: process(clk, rst)
+begin
+
+	if(rst = '0') then
+	-- async reset values
+	cnt_sync <= (others=>'0');
+	clk16 	<= '0';
+	elsif rising_edge(clk) then
+	cnt_sync <= cnt_sync + 1;
+	elsif(cnt_sync = cc_cnt) then
+	clk16 <= '1';
+	cnt_sync <= (others=> '0');
+	else
+	clk16 <= '0';
+	end if;
+
+end process clock_cycle_counter;
+end arc_pb_if;
