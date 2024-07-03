@@ -1,5 +1,5 @@
 Analysis & Synthesis report for bbtas
-Tue Jan 23 14:57:14 2024
+Fri Jun 28 18:39:33 2024
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Tue Jan 23 14:57:14 2024           ;
+; Analysis & Synthesis Status ; Failed - Fri Jun 28 18:39:33 2024           ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; bbtas                                       ;
 ; Top-level Entity Name       ; bbtas                                       ;
@@ -161,35 +161,38 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Tue Jan 23 14:57:07 2024
+    Info: Processing started: Fri Jun 28 18:39:26 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bbtas -c bbtas
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20032): Parallel compilation is enabled and will use up to 12 processors
+Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (12021): Found 2 design units, including 0 entities, in source file fsm_pack.vhd
+    Info (12022): Found design unit 1: fsm_pack File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/fsm_pack.vhd Line: 3
+    Info (12022): Found design unit 2: fsm_pack-body File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/fsm_pack.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file bbtas.vhd
-    Info (12022): Found design unit 1: bbtas-arc_bbtas File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 13
-    Info (12023): Found entity 1: bbtas File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 4
+    Info (12022): Found design unit 1: bbtas-arc_bbtas File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 15
+    Info (12023): Found entity 1: bbtas File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 6
 Info (12127): Elaborating entity "bbtas" for the top level hierarchy
-Error (10028): Can't resolve multiple constant drivers for net "y[1]" at bbtas.vhd(60) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 60
-Error (10029): Constant driver at bbtas.vhd(58) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 58
-Error (10028): Can't resolve multiple constant drivers for net "y[0]" at bbtas.vhd(59) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 59
-Error (10029): Constant driver at bbtas.vhd(57) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 57
-Error (10028): Can't resolve multiple constant drivers for net "sn[5]" at bbtas.vhd(44) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 44
-Error (10029): Constant driver at bbtas.vhd(39) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 39
-Error (10028): Can't resolve multiple constant drivers for net "sn[4]" at bbtas.vhd(40) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 40
-Error (10029): Constant driver at bbtas.vhd(35) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 35
-Error (10028): Can't resolve multiple constant drivers for net "sn[3]" at bbtas.vhd(32) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 32
-Error (10029): Constant driver at bbtas.vhd(26) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 26
-Error (10028): Can't resolve multiple constant drivers for net "sn[2]" at bbtas.vhd(29) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 29
-Error (10029): Constant driver at bbtas.vhd(25) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 25
-Error (10028): Can't resolve multiple constant drivers for net "sn[1]" at bbtas.vhd(27) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 27
-Error (10029): Constant driver at bbtas.vhd(24) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 24
-Error (10028): Can't resolve multiple constant drivers for net "sn[0]" at bbtas.vhd(28) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 28
-Error (10029): Constant driver at bbtas.vhd(23) File: C:/vhdl_projects/BennyParser1/bbtas.vhd Line: 23
+Error (10028): Can't resolve multiple constant drivers for net "sn[5]" at bbtas.vhd(47) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 47
+Error (10029): Constant driver at bbtas.vhd(42) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 42
+Error (10028): Can't resolve multiple constant drivers for net "sn[4]" at bbtas.vhd(43) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 43
+Error (10029): Constant driver at bbtas.vhd(38) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 38
+Error (10028): Can't resolve multiple constant drivers for net "sn[3]" at bbtas.vhd(35) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 35
+Error (10029): Constant driver at bbtas.vhd(29) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 29
+Error (10028): Can't resolve multiple constant drivers for net "sn[2]" at bbtas.vhd(32) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 32
+Error (10029): Constant driver at bbtas.vhd(28) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 28
+Error (10028): Can't resolve multiple constant drivers for net "sn[1]" at bbtas.vhd(30) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 30
+Error (10029): Constant driver at bbtas.vhd(27) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 27
+Error (10028): Can't resolve multiple constant drivers for net "sn[0]" at bbtas.vhd(31) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 31
+Error (10029): Constant driver at bbtas.vhd(26) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 26
+Error (10028): Can't resolve multiple constant drivers for net "yn[1]" at bbtas.vhd(64) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 64
+Error (10029): Constant driver at bbtas.vhd(62) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 62
+Error (10028): Can't resolve multiple constant drivers for net "yn[0]" at bbtas.vhd(63) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 63
+Error (10029): Constant driver at bbtas.vhd(61) File: C:/Users/sixsi/Code Projects/vhdl_projects/BennyParser1/bbtas.vhd Line: 61
 Error (12153): Can't elaborate top-level user hierarchy
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 17 errors, 1 warning
-    Error: Peak virtual memory: 4837 megabytes
-    Error: Processing ended: Tue Jan 23 14:57:14 2024
+    Error: Peak virtual memory: 4839 megabytes
+    Error: Processing ended: Fri Jun 28 18:39:33 2024
     Error: Elapsed time: 00:00:07
-    Error: Total CPU time (on all processors): 00:00:05
+    Error: Total CPU time (on all processors): 00:00:06
 
 

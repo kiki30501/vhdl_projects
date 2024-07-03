@@ -6,7 +6,7 @@ use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 -------------------------------------------------------------------------------
 entity fsm_creator is
-   generic (file_path : string := "C:\vhdl_projects\BennyParser1\");
+   generic (file_path : string := "C:\Users\sixsi\Code Projects\vhdl_projects\BennyParser1\");
 end entity fsm_creator;
 -------------------------------------------------------------------------------
 architecture arc_fsm_creator of fsm_creator  is
@@ -316,6 +316,7 @@ begin
       writeline(out_file, curr_line);
       file_close(in_file);
       file_close(out_file);
+      report "Job done!";
       wait;
    end process; 
 end architecture arc_fsm_creator;
