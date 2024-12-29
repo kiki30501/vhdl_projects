@@ -14,7 +14,7 @@ package imgproc_pack is
   ----------------------------------------------------
 
   -- file names and locations
-  constant project_path : string := "C:\vhdl_projects\adv_vhdl_proj\";
+  constant project_path : string := ".\\"; --Address of project files. The address ".\" means "The current folder".
   --ROM
   constant mif_name_format : string := "x.mif";
   type mif_array_type is array (0 to 2) of string(mif_name_format'range);
